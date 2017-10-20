@@ -1,0 +1,16 @@
+PODS:
+  - NBWaveView (0.1.0)
+
+DEPENDENCIES:
+  - NBWaveView (from `../`)
+
+EXTERNAL SOURCES:
+  NBWaveView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NBWaveView: d618e6a408fb4b05675400fef296a1f9d949330d
+
+PODFILE CHECKSUM: accdfe5815d4705f090023fd411892dbfbdb07b5
+
+COCOAPODS: 1.4.0.beta.1

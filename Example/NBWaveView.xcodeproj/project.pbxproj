@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04712B641F99C40200E8A9EE /* NBTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04712B631F99C40200E8A9EE /* NBTwoViewController.m */; };
+		04712B671F99C44C00E8A9EE /* NBThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04712B661F99C44C00E8A9EE /* NBThreeViewController.m */; };
 		5FAA67302B66060DA36AF733 /* Pods_NBWaveView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB8A33896E6125139F12060 /* Pods_NBWaveView_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,8 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04712B621F99C40200E8A9EE /* NBTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBTwoViewController.h; sourceTree = "<group>"; };
+		04712B631F99C40200E8A9EE /* NBTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBTwoViewController.m; sourceTree = "<group>"; };
+		04712B651F99C44C00E8A9EE /* NBThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBThreeViewController.h; sourceTree = "<group>"; };
+		04712B661F99C44C00E8A9EE /* NBThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBThreeViewController.m; sourceTree = "<group>"; };
+		04712B851F99F67D00E8A9EE /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		2CFEAAD55AAE7C2CE318D2CA /* Pods-NBWaveView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBWaveView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBWaveView_Example/Pods-NBWaveView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4C68C185C8DB643578470757 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4C68C185C8DB643578470757 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NBWaveView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBWaveView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +69,9 @@
 		85745D9E0E29EF03FD498910 /* Pods-NBWaveView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBWaveView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBWaveView_Tests/Pods-NBWaveView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		878F200A02FA706742ED2C9E /* Pods-NBWaveView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBWaveView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBWaveView_Tests/Pods-NBWaveView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9B88D451B02BAAAE7A224B6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9B88D451B02BAAAE7A224B6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B31D7150606706CE6022EFE6 /* Pods-NBWaveView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBWaveView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NBWaveView_Example/Pods-NBWaveView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B3B3A38F55F1BCC6A2EDD6D5 /* NBWaveView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NBWaveView.podspec; path = ../NBWaveView.podspec; sourceTree = "<group>"; };
+		B3B3A38F55F1BCC6A2EDD6D5 /* NBWaveView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NBWaveView.podspec; path = ../NBWaveView.podspec; sourceTree = "<group>"; };
 		D84336AD74B6C71E9B183EA7 /* Pods_NBWaveView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBWaveView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB8A33896E6125139F12060 /* Pods_NBWaveView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NBWaveView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04712B831F99EFEB00E8A9EE /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				04712B851F99F67D00E8A9EE /* 1.gif */,
+			);
+			name = Gif;
+			path = ../Gif;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +153,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* NBViewController.h */,
 				6003F5A6195388D20070C39A /* NBViewController.m */,
+				04712B621F99C40200E8A9EE /* NBTwoViewController.h */,
+				04712B631F99C40200E8A9EE /* NBTwoViewController.m */,
+				04712B651F99C44C00E8A9EE /* NBThreeViewController.h */,
+				04712B661F99C44C00E8A9EE /* NBThreeViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -178,6 +198,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				04712B831F99EFEB00E8A9EE /* Gif */,
 				B3B3A38F55F1BCC6A2EDD6D5 /* NBWaveView.podspec */,
 				9B88D451B02BAAAE7A224B6D /* README.md */,
 				4C68C185C8DB643578470757 /* LICENSE */,
@@ -403,7 +424,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04712B671F99C44C00E8A9EE /* NBThreeViewController.m in Sources */,
 				6003F59E195388D20070C39A /* NBAppDelegate.m in Sources */,
+				04712B641F99C40200E8A9EE /* NBTwoViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* NBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
