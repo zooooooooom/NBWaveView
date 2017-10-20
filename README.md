@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/NBWaveView.svg?style=flat)](http://cocoapods.org/pods/NBWaveView)
 
 ## Example
+![image](https://github.com/shiyingfeng/NBWaveView/raw/master/Gif/1.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
