@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NBWaveView_Example' do
+  pod 'NBWaveView', :path => '../'
+
+  target 'NBWaveView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
