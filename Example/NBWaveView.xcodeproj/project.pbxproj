@@ -43,7 +43,7 @@
 		04712B631F99C40200E8A9EE /* NBTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBTwoViewController.m; sourceTree = "<group>"; };
 		04712B651F99C44C00E8A9EE /* NBThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBThreeViewController.h; sourceTree = "<group>"; };
 		04712B661F99C44C00E8A9EE /* NBThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBThreeViewController.m; sourceTree = "<group>"; };
-		04712B851F99F67D00E8A9EE /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		04712B861F9DCDE600E8A9EE /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		2CFEAAD55AAE7C2CE318D2CA /* Pods-NBWaveView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NBWaveView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NBWaveView_Example/Pods-NBWaveView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4C68C185C8DB643578470757 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NBWaveView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBWaveView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,7 +105,7 @@
 		04712B831F99EFEB00E8A9EE /* Gif */ = {
 			isa = PBXGroup;
 			children = (
-				04712B851F99F67D00E8A9EE /* 1.gif */,
+				04712B861F9DCDE600E8A9EE /* 1.gif */,
 			);
 			name = Gif;
 			path = ../Gif;

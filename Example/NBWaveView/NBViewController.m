@@ -29,7 +29,7 @@
         config.position = NBWavePositionBottom;
         config.bgColor = [UIColor clearColor];
         config.isAnimation = YES;
-        config.isShowImage = NO;
+        config.isShowImage = YES;
         config.waveSpeed = 0.05;
         config.waveColor = [UIColor colorWithWhite:212/255.0 alpha:0.7];
         config.waveA = 5;

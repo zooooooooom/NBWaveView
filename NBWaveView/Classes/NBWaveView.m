@@ -47,8 +47,9 @@
     if (waveView.config.isAnimation) {
         [waveView startWave];
     }
-    if (waveView.config.nbImage) {
+    if (waveView.config.nbImage && waveView.config.isShowImage) {
         waveView.imgView.image = waveView.config.nbImage;
+        waveView.imgView.size = waveView.config.imgSize;
     }
     return waveView;
 }
@@ -85,17 +86,15 @@
         default:
             break;
     }
+    
     if (self.config.isShowImage && self.config.nbImage != nil) {
         y = self.config.waveA * sin(self.config.wavePeriod*(self.width/2)+self.config.waveOffset) + self.config.waveC;
-        self.imgView.size = self.config.imgSize;
-        self.imgView.centerY = y - self.config.imgSize.height/2 - self.config.imageOffsetY;
-        self.imgView.centerX = self.width/2;
-        /* 这里图片的旋转需要后续测试
-        CGFloat angel = atan(self.config.waveA*self.config.wavePeriod*cos(self.config.wavePeriod*(self.width/2.0f) + self.config.waveOffset));
-        self.imgView.transform = CGAffineTransformMakeRotation(angel / M_PI);
-         */
+        CGFloat angle = self.config.waveA * self.config.wavePeriod * cos(self.config.wavePeriod*(self.width/2)+self.config.waveOffset);
+        
+        self.imgView.centerY = self.config.imgSize.height*0.5*cos(angle)+y-self.config.imgSize.height+self.config.imageOffsetY;
+        self.imgView.centerX = self.config.imgSize.height*0.5*sin(angle)+self.width/2;
+        self.imgView.transform = CGAffineTransformMakeRotation(angle);
     }
-    
     self.waveLayer.fillColor = self.config.waveColor.CGColor;
     CGPathCloseSubpath(path);
     self.waveLayer.path = path;
